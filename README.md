@@ -10,11 +10,13 @@ version.txt  这个是控制版本号的 如果本地和服务器这边不一致
 
 添加计划任务如下:
 #开始
+
 wget --no-check-certificate -P /www/wwwroot/XXXX/ip https://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz
 cd /www/wwwroot/XXXX/ip
 tar -xvf all-zones.tar.gz
 rm -f all-zones.tar.gz
 chmod -R 777 /www/wwwroot/XXXX/ip
+
 #结束
 设置一天更新一次
 记得修改网站根目录/www/wwwroot/XXXX
